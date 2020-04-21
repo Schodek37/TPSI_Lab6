@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Pierwszy projekt springowy</title>
+    <meta charset="UTF-8"/>
+</head>
+<body>
+<h1>Lekcja matematyki z ZUT:</h1>
+<form action="/calculator" method="post">
+    x: <input type="number" name="x"/>
+    <select name="sign">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="/">/</option>
+        <option value="*">*</option>
+    </select>
+    y: <input type="number" name="y"/>
+
+    <input type="submit" value="Wyślij"/>
+</form>
+</body>
+</html>
